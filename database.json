@@ -1,0 +1,35 @@
+{
+    "dev": {
+      "driver": "pg",
+      "host": "localhost",
+      "port": 5432,
+      "database": "permit_portal",
+      "user": "postgres",
+      "password": "123456",
+      "schema": "public",
+      "ssl": false
+    },
+    "test": {
+      "driver": "pg",
+      "host": "localhost",
+      "port": 5432,
+      "database": "permit_portal_test",
+      "user": "postgres",
+      "password": "your_password",
+      "schema": "public",
+      "ssl": false
+    },
+    "production": {
+      "driver": "pg",
+      "host": {"ENV": "DB_HOST"},
+      "port": {"ENV": "DB_PORT"},
+      "database": {"ENV": "DB_NAME"},
+      "user": {"ENV": "DB_USER"},
+      "password": {"ENV": "DB_PASSWORD"},
+      "schema": "public",
+      "ssl": true
+    },
+    "sql-file": true,
+    "migrations-dir": "src/database/migrations",
+    "seeds-dir": "src/database/seeds"
+  }

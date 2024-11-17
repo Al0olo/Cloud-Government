@@ -1,0 +1,4 @@
+{"ip":"::1","level":"warn","message":"Resource not found:","method":"POST","path":"/login","query":{},"timestamp":"2024-11-16T14:44:45.159Z"}
+{"ip":"::1","level":"warn","message":"Resource not found:","method":"POST","path":"/login","query":{},"timestamp":"2024-11-16T14:44:46.607Z"}
+{"errors":{"email":"Email is required","password":"Password is required"},"level":"warn","message":"Validation error","path":"/login","timestamp":"2024-11-16T14:45:22.434Z"}
+{"errors":{"password":"Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character"},"level":"warn","message":"Validation error","path":"/register","timestamp":"2024-11-16T15:27:21.608Z"}
